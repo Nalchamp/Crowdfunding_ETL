@@ -69,11 +69,11 @@ Using the Python dictionary method extract and transform the data from the conta
 ## Contents
 
 Within this repository are the following:
-    - ETL Mini project python analysis file
-    - A Resources folder
-          - Initial excel files used for initial extractions 
-          - .csv files (created and used for further analysis)
-    - A SQL_database folder
-          - crowdfunding_schema fo  creating the crowdfunding database
-          - Image folder with crowdfunding ERD and screenshots of the database created
+   1. ETL Mini project python analysis file
+   2. A Resources folder
+      + Initial excel files used for initial extractions
+      + .csv files (created and used for further analysis)
+   3. A SQL_database folder
+      + crowdfunding_schema fo  creating the crowdfunding database
+      + Image folder with crowdfunding ERD and screenshots of the database created
     
