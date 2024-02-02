@@ -24,6 +24,7 @@ The instructions for this mini project are divided into the following subsection
    * Export the subcategory DataFrame as subcategory.csv and save it to your GitHub repository.
 
 ## Create the Campaign DataFrame
+
    * Extract and transform the crowdfunding.xlsx Excel data to create a campaign DataFrame has the following columns:
       * The "cf_id" column
       * The "contact_id" column
@@ -41,6 +42,29 @@ The instructions for this mini project are divided into the following subsection
       * The "subcategory_id" column, with the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
    * Export the campaign DataFrame as campaign.csv and save it to your GitHub repository.
 
+## Create the Contacts DataFrame
+
+Using the Python dictionary method extract and transform the data from the contacts.xlsx Excel data.
+
+   * Import the contacts.xlsx file into a DataFrame.
+   * Iterate through the DataFrame, converting each row to a dictionary.
+   * Iterate through each dictionary, doing the following:
+   * Extract the dictionary values from the keys by using a Python list comprehension.
+   * Add the values for each row to a new list.
+   * Create a new DataFrame that contains the extracted data.
+   * Split each "name" column value into a first and last name, and place each in a new column.
+   * Clean and export the DataFrame as contacts.csv and save it to your GitHub repository.
+
+## Create the Crowdfunding Database
+
+   * Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBDLinks to an external site.
+   * Use the information from the ERD to create a table schema for each CSV file.
+   * Save the database schema as a Postgres file named crowdfunding_db_schema.sql, and save it to your GitHub repository.
+   * Create a new Postgres database, named crowdfunding_db.
+   * Using the database schema, create the tables in the correct order to handle the foreign keys.
+   * Verify the table creation by running a SELECT statement for each table.
+   * Import each CSV file into its corresponding SQL table.
+   * Verify that each table has the correct data by running a SELECT statement for each. (screenshots were added in the repository of these results)
 
 ## Contents
 
